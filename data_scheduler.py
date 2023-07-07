@@ -9,8 +9,8 @@ def schedule_data():
     result = process_data()
     print(result)
 
-# Schedule the job to run every minute
-schedule.every(1).minutes.do(schedule_data)
+# Schedule the job to run every day at 2:00 AM
+schedule.every().day.at('02:00').do(schedule_data)
 print("Scheduler is running...")
 
 # Keep the script running to execute scheduled jobs
