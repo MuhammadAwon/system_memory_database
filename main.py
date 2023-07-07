@@ -2,7 +2,6 @@ import os
 import csv
 import sqlite3
 from csv_script import execute_cmds
-from create_sqlite import create_database
 
 
 
@@ -46,6 +45,5 @@ def process_data():
 
 
 if __name__ == '__main__':
-    create_database()  # Execute create_database function from create_sqlite.py
     result = process_data()
     print(result) # Display the message whether the data is stored or not
