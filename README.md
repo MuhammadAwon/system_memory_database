@@ -49,6 +49,6 @@ This guide will help you set up the project on your local machine. Please follow
 
 ## Tutorial
 
-To follow along with the project, please refer to the [Tutorial]() for detailed instructions and explanations of the project's features and functionality.
+To follow along with the project, please refer to the [Tutorial](https://awon.info/blog/my-learning/sys-mem-db/) for detailed instructions and explanations of the project's features and functionality.
 
 That's it! You've successfully set up the project on your local machine. Feel free to explore and modify the code as needed.
